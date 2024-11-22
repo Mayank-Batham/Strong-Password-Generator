@@ -1,0 +1,100 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background:url("Random.png");
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+}
+.container{
+    width: 450px;
+    padding: 25px;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 25px;
+    color: white;
+    font-size: 40px;
+}
+.password-body{
+    color: white;
+}
+.text-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 25px;
+    background: rgba(15, 15, 18, 0.8);
+    color: white;
+}
+.text-area input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 15px 0;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+}
+.text-area img{
+    height: 20px;
+    cursor: pointer;
+}
+.password-length{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+.password-length input[type="range"]{
+    flex: 1;
+    margin-right: 20px;
+}
+.password-length input[type="number"]{
+    width: 40px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px 0;
+}
+.checkBox-list .options{
+    display: flex;
+    flex-wrap: wrap;
+    height: 35px;
+    cursor: pointer;
+    align-content: center;
+    background-color: rgba(15, 15, 18, 0.8);
+    border-radius: 20px;
+    margin-bottom: 15px;
+    color: white;
+}
+.checkBox-list .options input{
+    margin-right: 25px;
+    margin-left: 10px;
+}
+.generatePassword{
+    color: white;
+    width: 100%;
+    background: rgba(15, 15, 18, 0.8);
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 25px;
+    font-size: 35px;
+    cursor: pointer;
+}
